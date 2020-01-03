@@ -1,0 +1,160 @@
+body {
+    background: pink;
+    background: url('img/babe1.jpg')no-repeat center center/cover;
+}
+
+
+#sign-up {
+    max-width: 400px;
+    margin-top: 100px !important;
+    margin: 0 auto;
+}
+
+#forma {
+    background: #bee5eb;
+}
+.table {
+    font-size: 22px;
+}
+
+#inp {
+    font-size: large;
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity: 0.7;
+    border: 2px solid black;
+}
+
+#main-footer {
+    background: #ffeeba;
+}
+
+
+/**************/ 
+.countdown {
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.countdown div {
+  padding: 45px;
+  border: 1px #fff solid;
+  border-radius: 10px;
+  background: #ffeeba;
+  opacity: 0.7;
+  margin: 5px;
+}
+
+.countdown div:first-child {
+  background: #bee5eb;
+}
+
+.countdown span {
+
+  font-size: 25px;
+} 
+
+/* IPAD PRO */
+@media(max-width: 1024px){
+    .countdown {
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      
+      .countdown div {
+        padding: 20px;
+        border: 1px #fff solid;
+        border-radius: 10px;
+        background: #ffeeba;
+        opacity: 0.7;
+        margin: 5px;
+      }
+      
+      .countdown div:first-child {
+        background: #bee5eb;
+      }
+      
+      .countdown span {
+      
+        font-size: 25px;
+      } 
+}
+
+/* IPAD */
+@media(max-width: 768px){
+    .countdown {
+        font-size: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      
+      .countdown div {
+        padding: 13px;
+        border: 1px #fff solid;
+        border-radius: 10px;
+        background: #ffeeba;
+        opacity: 0.7;
+        margin: 5px;
+      }
+      
+      .countdown div:first-child {
+        background: #bee5eb;
+      }
+      
+      .countdown span {
+      
+        font-size: 22px;
+      } 
+}
+
+/* Iphone */
+@media(max-width: 720px){
+    #logo {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        opacity: 0.7;
+        border: 2px solid black;
+        margin-left: 120px;
+        margin-bottom: 20px;
+    }
+    .countdown {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      
+      .countdown div {
+        padding: 20px;
+        border: 1px #fff solid;
+        border-radius: 10px;
+        background: #ffeeba;
+        opacity: 0.7;
+        margin: 5px;
+      }
+      
+      .countdown div:first-child {
+        background: #bee5eb;
+      }
+      
+      .countdown span {
+      
+        font-size: 10px;
+      } 
+
+
+}
