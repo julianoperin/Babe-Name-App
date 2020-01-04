@@ -1,6 +1,6 @@
 body {
     background: pink;
-    background: url('img/babe1.jpg')no-repeat center center/cover;
+    background: url('img/baby1.jpg')no-repeat center center/cover;
 }
 
 
@@ -151,7 +151,7 @@ body {
       }
       
       .countdown div {
-        padding: 20px;
+        padding: 10px;
         border: 1px #fff solid;
         border-radius: 10px;
         background: #ffeeba;
@@ -165,7 +165,7 @@ body {
       
       .countdown span {
       
-        font-size: 10px;
+        font-size: 15px;
       } 
 
 
@@ -180,3 +180,4 @@ body {
    margin: 0 auto;
   }
 }
+
